@@ -14,7 +14,7 @@
 /**************/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
 @import url('https://fonts.googleapis.com/css?family=Garamond');
 
 $quicksand: 'Quicksand', sans-serif;
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   // font-family: Quicksand, -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-family: $quicksand;
   color: $darkerGray;
-  font-weight: 100;
+  font-weight: 300;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -463,7 +463,7 @@ body:after {
   // font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-family: $quicksand;
   text-align: center;
-  //font-weight: bold;
+  font-weight: 300;
   font-kerning: auto;
   letter-spacing: 2px;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
@@ -474,7 +474,7 @@ body:after {
   // font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-family: $quicksand;
   text-align: center;
-  //font-weight: bold;
+  font-weight: 300;
   font-kerning: auto;
   letter-spacing: 2px;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
@@ -505,7 +505,7 @@ body:after {
 
 .cd-container h1, .cd-container h2 {
   font-family: $quicksand, sans-serif;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 /* --------------------------------
