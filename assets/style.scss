@@ -76,7 +76,8 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
+  font-kerning: auto;
   letter-spacing: 2px;
 }
 
@@ -93,11 +94,13 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
+  font-kerning: auto;
+  letter-spacing: 1px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   color: #222;
 }
 
