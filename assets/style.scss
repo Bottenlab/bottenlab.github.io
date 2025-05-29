@@ -235,6 +235,89 @@ p > img {
   margin: 0 auto;
 }
 
+
+.image {
+  border: 0;
+  display: inline-block;
+  position: relative;
+
+  img {
+    display: block;
+  }
+
+  &.left,
+  &.right {
+    max-width: 30%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &.left {
+    float: left;
+    margin: 0 1.5em 1.25em 0;
+    top: 0.25em;
+  }
+  &.left-rounded {
+    max-width: 25%;
+    float: left;
+    margin: 0 1.5em 1.25em 0;
+    top: 0.25em;
+    img {
+      border-radius: 100000000000px; 
+    }
+  }
+  &.rounded {
+    max-height: 75%;
+    max-width: 80%;
+    margin: 0 1.5em 1.25em 0;
+    top: 0.25em;
+    img {
+      border-radius: 100000000000px; 
+    }
+  }
+  &.right-rounded {
+    max-width: 25%;
+    float: right;
+    margin: 0 0 1.25em 1.5em;
+    top: 0.25em;
+    img {
+      border-radius: 10000000000000px; 
+    }
+  }
+  &.right {
+    float: right;
+    margin: 0 0 1.25em 1.5em;
+    top: 0.25em;
+  }
+
+  &.fit {
+    display: block;
+    margin: 0 0 _size(element-margin) 0;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &.main {
+    display: block;
+    margin: (_size(element-margin) * 1.25) 0;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+
+    @include breakpoint(small) {
+      margin: (_size(element-margin) * 0.75) 0;
+    }
+  }
+}
+
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;

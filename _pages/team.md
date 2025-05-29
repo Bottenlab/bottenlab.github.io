@@ -1,51 +1,27 @@
 ---
 layout: page
-title: Meet the team!
+title: Meet the BottenLab!
 permalink: /team/
 ---
 
-### Step 1) Fork Reverie to your User Repository
+### PI: Dr. Katherine Bottenhorn
 
-Fork [this repository](https://github.com/amitmerchant1990/reverie), then rename the repository to `yourgithubusername.github.io`.
+[<span class="image left-rounded"><img src="{{ site.baseurl }}/images/bottenhorn-headshot.jpeg" alt="Katherine L. Bottenhorn, PhD" style="width: 200px;"/></span>]({{ site.baseurl }}/)
 
-Alternatively, you can use [Use this template](https://github.com/amitmerchant1990/reverie/generate) button if you want to create a repository with a clean commit history which will use Reverie as a template.
+Dr. Bottenhorn earned her bachelors degrees in Psychology and Chemistry from Auburn University (WDE), then her masters and PhD in Psychology from the Cognitive Neuroscience graduate program at Florida International University. During graduate school, her research focused on developing and deploying open-source software tools for studying individual differences in large-scale brain networks, culminating in a deep-phenotyping study of functional network connectivity across the adult menstrual cycle. Then, she drove across the U.S., from Miami to Los Angeles, to do a postdoc in the Department of Population and Public Health Sciences at the Keck School of Medicine of the University of Southern California, where she switched gears just a bit to study individual differences in early adolescent neurodevelopment related to (a) outdoor air pollution exposure and (b) puberty. In August 2025, she'll drive _back_ across the U.S., from Los Angeles to Miami, to start as an Assistant Professor of Psychology at Florida International University (truly, full circle) and launch the BottenLab.
 
-Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+### Postdoctoral Scholars
 
-### Step 2) Customize and view your site
+Now hiring, for a Winter 2025 start at the earliest. Email me!
 
-Enter your site name, description, avatar and many other options by editing the `_config.yml` file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here.
+### Graduate Students
 
-Making a change to `_config.yml` (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon.
+Recruiting for Fall 2026 start in the Cognitive Neuroscience PhD program!
 
-### Step 3) Publish your first blog post
+### Staff
 
-Create a new file called `/_posts/2019-2-13-Hello-World.md` to publish your first blog post. That's all you need to do to publish your first blog post! This [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) might come in handy while writing the posts.
+Now hiring, for a Winter 2025 start at the earliest. Email me!
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the <kbd>Create new file</kbd> button in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+### Research Assistants
 
-## Using Categories in Reverie
-
-You can categorize your content based on `categories` in Reverie. For this, you just need to add `categories` in front matter like below:
-
-For adding single category:
-
-```md
-categories: JavaScript
-```
-
-For adding multiple categories:
-
-```md
-categories: [PHP, Laravel]
-```
-
-The contegorized content can be shown over this URL: <https://yourgithubusername.github.io/categories/>
-
-## RSS
-
-The generated [RSS feed](https://en.wikipedia.org/wiki/RSS) of your blog can be found at <https://yourgithubusername.github.io/feed>. You can see the example RSS feed over [here](https://www.amitmerchant.com/reverie/feed).
-
-## Sitemap
-
-The generated sitemap of your blog can be found at <https://yourgithubusername.github.io/sitemap>. You can see the example sitemap feed over [here](https://www.amitmerchant.com/reverie/sitemap).
+I'm sure I'll hire some soon!
