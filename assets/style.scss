@@ -19,6 +19,10 @@
 $quicksand: 'Playfair Display', sans-serif;
 $garamond: 'Work Sans', serif;
 
+$pink: #dc267f;
+$lightPink: rgba(220, 331, 0, 0.5);
+
+
 html {
   font-size: 100%;
   height: 100%;
@@ -308,7 +312,7 @@ p > img {
 
 .date {
   text-transform: uppercase;
-  color: rgba(220, 331, 0, 0.5);
+  color: $lightPink;
 }
 
 // Specify the color of the selection
@@ -556,7 +560,7 @@ body:after {
 .post_date{
   text-align: center;
   text-transform: uppercase;
-  color: rgba(220, 331, 0, 0.5);
+  color: $lightPink;
 }
 
 .cd-container a {
