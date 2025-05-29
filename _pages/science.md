@@ -4,7 +4,7 @@ title: Science
 permalink: /science/
 ---
 
-The BottenLab is a housed in the Center for Children and Families and Department of Psychology at 
+The BottenLab is affiliated with the Center for Children and Families and Department of Psychology at 
 Florida International University. 
 We are studying adolescent brain development, focusing on potentially intersecting roles of 
 endocrine and environmental factors therein, by applying predictive modeling to human neuroimaging, 
