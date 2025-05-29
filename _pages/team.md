@@ -28,4 +28,4 @@ I'm sure I'll hire some soon!
 
 ### Moral Support / Mascot
 
-[<span class="image rounded"><img src="{{ site.baseurl }}/images/mister-fred.jpg" alt="Frederick N. Bottenhorn, DOG" style="width: 200px;"/></span>]
+### <span class="image rounded"><img src="{{ site.baseurl }}/images/mister-fred.jpg" alt="Frederick N. Bottenhorn, DOG" style="width: 200px;"/></span>
