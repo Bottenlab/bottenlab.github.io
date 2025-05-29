@@ -77,6 +77,7 @@ h1 {
 
 h2 {
   font-size: 24px;
+  letter-spacing: 2px;
 }
 
 @media (min-width: 769px){
@@ -551,7 +552,8 @@ body:after {
 .author_title{
   text-align: center;
   color: #939aa1;
-  //letter-spacing: 2px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .post_date{
@@ -780,6 +782,7 @@ Modules - reusable parts of our design
 .post-tags {
   text-align: center;
   line-height: 35px;
+  text-transform: uppercase;
 }
 
 .post-tags a {
@@ -789,6 +792,7 @@ Modules - reusable parts of our design
   background-color: $pink;
   border-radius: 50px;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .pagination a, .pagination span {
