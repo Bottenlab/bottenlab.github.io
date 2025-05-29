@@ -26,7 +26,7 @@ related to outdoor air pollution exposures during the transition to adolescence.
 incorporate other environmental exposures (e.g., water and indoor air pollution) with an emphasis on 
 endocrine-disrupting chemicals.
 
-## How does pubertal neuroendocrine plasticity confer vulnerability/resilience to neurotoxic effects of environmental exposure?
+> How does pubertal neuroendocrine plasticity confer vulnerability/resilience to neurotoxic effects of environmental exposure?
 
 Future research will bring together these two arms of research to understand how the hormone changes during 
 puberty that alter brain plasticity make teens more or less susceptible to environmental harms (i.e., to 
