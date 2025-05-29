@@ -30,7 +30,7 @@ body {
   font-family: $garamond;
   color: #404040;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   height: 100%;
 }
@@ -307,8 +307,8 @@ p > img {
 }
 
 .date {
-  font-style: italic;
-  color: $pink;
+  text-transform: uppercase;
+  color: rgba(220, 331, 0, 0.5);
 }
 
 // Specify the color of the selection
@@ -531,7 +531,7 @@ body:after {
   text-align: center;
   font-weight: 300;
   font-kerning: auto;
-  //letter-spacing: 2px;
+  letter-spacing: 0px;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
   line-height: 1.2;
 }
@@ -555,8 +555,8 @@ body:after {
 
 .post_date{
   text-align: center;
-  font-style: italic;
-  color: #939aa1;
+  text-transform: uppercase;
+  color: rgba(220, 331, 0, 0.5);
 }
 
 .cd-container a {
