@@ -5,7 +5,7 @@ permalink: /pubs/
 ---
 
 
-<body onload="updateValue(e)">
+<body onload="updateValue()">
   
 <!-- Copied directly from http://www.ephys.org/ by Damian J Williams -->
 
