@@ -51,7 +51,7 @@ const log = document.getElementById('demo');
 // input.addEventListener('input', updateValue);
 //input.onchange = updateValue;
 
-function updateValue(e) {
+function updateValue() {
   searchterm = '&term=' + name + '[Author]';
   idURL = pubmedSearchAPI + database + returnmode + returnmax + searchterm
   console.log(idURL);
