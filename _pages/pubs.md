@@ -5,18 +5,16 @@ permalink: /pubs/
 ---
 
 
-<body>
+<body onload="updateValue">
   
 <!-- Copied directly from http://www.ephys.org/ by Damian J Williams -->
-
-<input placeholder="Katherine Bottenhorn" name="name"/>
 
 <p id="demo"></p>
 
 <script>
 
 //From "http://www.alexhadik.com/blog/2014/6/12/create-pubmed-citations-automatically-using-pubmed-api" adapted from reply to blog post by Les Ansley
-
+var name = "Katherine Bottenhorn"
 var HTMLpublication = '%authors% (%date%) \'%title%\' <i>%journal%\</i>,<b>%volume%</b> %issue%%pages%PMID:<a href="%data%"target="_blank"> %PMID% </a></br></br>' //Formats output
 
 var publications, idStringList;
@@ -47,11 +45,11 @@ var getPubmed = function(url) { //passed url
     });
 };
 
-const input = document.querySelector('input');
+//const input = document.querySelector('input');
 const log = document.getElementById('demo');
 
 // input.addEventListener('input', updateValue);
-input.onchange = updateValue;
+//input.onchange = updateValue;
 
 function updateValue(e) {
   searchterm = '&term=' + e.srcElement.value + '[Author]';
