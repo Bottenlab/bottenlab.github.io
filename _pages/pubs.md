@@ -5,7 +5,7 @@ permalink: /pubs/
 ---
 
 
-<body onload="updateValue()">
+<body onload="updateValue(e)">
   
 <!-- Copied directly from http://www.ephys.org/ by Damian J Williams -->
 
@@ -52,7 +52,7 @@ const log = document.getElementById('demo');
 //input.onchange = updateValue;
 
 function updateValue(e) {
-  searchterm = '&term=' + e.srcElement.value + '[Author]';
+  searchterm = '&term=' + name + '[Author]';
   idURL = pubmedSearchAPI + database + returnmode + returnmax + searchterm
   console.log(idURL);
 
