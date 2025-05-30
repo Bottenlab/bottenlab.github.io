@@ -5,7 +5,6 @@ permalink: /pubs/
 ---
 
 
-<!DOCTYPE html>
 <body>
   
 <!-- Copied directly from http://www.ephys.org/ by Damian J Williams -->
