@@ -12,15 +12,15 @@ permalink: /team/
 
 ### Postdoctoral Scholars
 
-Now hiring, for a Winter 2025 start at the earliest. Email me!
+Now hiring, for a Winter 2025 start at the earliest.
 
 ### Graduate Students
 
-Recruiting for Fall 2026 start in the Cognitive Neuroscience PhD program!
+Recruiting in the [Fall 2025 application cycle](https://case.fiu.edu/psychology/phd-in-cognitive-neuroscience/admissions/index.html) in FIU's Cognitive Neuroscience PhD program! Please email me if you're planning to apply.
 
 ### Staff
 
-Now hiring, for a Winter 2025 start at the earliest. Email me!
+Now hiring, for a Winter 2025 start at the earliest.
 
 ### Research Assistants
 
