@@ -15,7 +15,7 @@ permalink: /pubs/
 
 //From "http://www.alexhadik.com/blog/2014/6/12/create-pubmed-citations-automatically-using-pubmed-api" adapted from reply to blog post by Les Ansley
 var name = "Katherine Bottenhorn"
-var HTMLpublication = '%authors% (%date%) \'%title%\' <i>%journal%\</i>,<b>%volume%</b> %issue%%pages%PMID:<a href="%data%"target="_blank"> %PMID% </a></br></br>' //Formats output
+var HTMLpublication = '%authors% (%date%). %title%. <i>%journal%\</i>,<b>%volume%</b> %issue%%pages%PMID:<a href="%data%"target="_blank"> %PMID% </a></br></br>' //Formats output
 
 var publications, idStringList;
 var pubmedSearchAPI = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?";
@@ -52,7 +52,7 @@ const log = document.getElementById('demo');
 //input.onchange = updateValue;
 
 function updateValue() {
-  searchterm = '&term=' + name + '[Author]';
+  //searchterm = '&term=' + name + '[Author]';
   idURL = pubmedSearchAPI + database + returnmode + returnmax + searchterm
   console.log(idURL);
 
@@ -78,7 +78,8 @@ getPubmed(idURL).then(function(data) {
 function formatReferences(summary) {
     var publicationList = '';
     for (refs in summary.result) {
-        if (refs !== 'uids') {
+        var date = date = summary.result[refs].pubdate;
+        if (refs !== 'uids' || date) {
             var authors = '';
             var publication = '';
             var authorCount = ((summary.result[refs].authors).length);

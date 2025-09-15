@@ -4,11 +4,8 @@ title: Science
 permalink: /science/
 ---
 
-The BottenLab is affiliated with the Center for Children and Families and Department of Psychology at 
-Florida International University. 
-We are studying adolescent brain development, focusing on potentially intersecting roles of 
-endocrine and environmental factors therein, by applying predictive modeling to human neuroimaging, 
-biospecimen, and exposure data.
+The BottenLab is affiliated with the Center for Children and Families and Department of Psychology at Florida International University. We study teen brains, hormones, and pollution exposures to advance teen mental health and advance knowledge of endocrine and environmental influencess on the brain.
+<blockquote>Our goal is to better understand the role of pubertal neuroendocrine plasticity in adolescent brain and mental health, while training the next generation of researchers in rigorous, open science. </blockquote>
 
 ## Pubertal neuroendocrine plasticity
 
@@ -26,7 +23,7 @@ related to outdoor air pollution exposures during the transition to adolescence.
 incorporate other environmental exposures (e.g., water and indoor air pollution) with an emphasis on 
 endocrine-disrupting chemicals.
 
-<blockquote>How does pubertal neuroendocrine plasticity confer vulnerability/resilience to neurotoxic effects of environmental exposure?</blockquote>
+<blockquote>How does pubertal neuroendocrine plasticity confer vulnerability/resilience to neurotoxic abd behavioral effects of environmental exposure?</blockquote>
 
 Future research will bring together these two arms of research to understand how the hormone changes during 
 puberty that alter brain plasticity make teens more or less susceptible to environmental harms (i.e., to 
