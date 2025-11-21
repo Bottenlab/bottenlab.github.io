@@ -25,7 +25,8 @@ var returnmode = "&retmode=json";
 var returnmax = "&retmax=100";
 var searchterm = "?term=(Bottenhorn+KL[Author])";
 var returntype = "&rettype=abstract";
-var idURL = pubmedSearchAPI + database + returnmode + returnmax + searchterm
+//var idURL = pubmedSearchAPI + database + returnmode + returnmax + searchterm
+var idURL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=100&term=(Bottenhorn+KL[Author])&sort=pub+date"
 console.log(idURL);
 
 var getPubmed = function(url) { //passed url
