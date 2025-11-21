@@ -23,7 +23,7 @@ var pubmedSummaryAPI = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.f
 var database = "db=pubmed";
 var returnmode = "&retmode=json";
 var returnmax = "&retmax=100";
-var searchterm = "?term=(Bottenhorn+KL[Author])+AND+(("2024%2F01%2F01"[Date+-+Publication]+%3A+"3000"[Date+-+Publication]))";
+var searchterm = "?term=(Bottenhorn+KL[Author])";
 var returntype = "&rettype=abstract";
 var idURL = pubmedSearchAPI + database + returnmode + returnmax + searchterm
 console.log(idURL);
