@@ -5,7 +5,7 @@ permalink: /pubs/
 ---
 
 
-<body onload="getPubmed()">
+<body onload="updateValue()">
   
 <!-- Copied directly from http://www.ephys.org/ by Damian J Williams -->
 
@@ -26,7 +26,7 @@ var returnmax = "&retmax=100";
 var searchterm = "?term=(Bottenhorn+KL[Author])";
 var returntype = "&rettype=abstract";
 //var idURL = pubmedSearchAPI + database + returnmode + returnmax + searchterm
-var idURL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=100&term=(Bottenhorn+KL[Author]) 2025/01/01:2050/03/26 [dp]&sort=pub+date"
+var idURL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=100&term=(Bottenhorn+KL[Author])&sort=pub+date"
 console.log(idURL);
 
 var getPubmed = function(url) { //passed url
@@ -54,7 +54,7 @@ const log = document.getElementById('demo');
 
 function updateValue() {
   //searchterm = '&term=' + name + '[Author]';
-  idURL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=100&term=(Bottenhorn+KL[Author]) 2025/01/01:2050/03/26 [dp]&sort=pub+date"
+  idURL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=100&term=(Bottenhorn+KL[Author])&sort=pub+date"
   console.log(idURL);
 
 getPubmed(idURL).then(function(data) {
