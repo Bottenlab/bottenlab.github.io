@@ -54,7 +54,7 @@ const log = document.getElementById('demo');
 
 function updateValue() {
   //searchterm = '&term=' + name + '[Author]';
-  idURL = pubmedSearchAPI + database + returnmode + returnmax + searchterm
+  idURL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=100&term=(Bottenhorn+KL[Author])&sort=pub+date"
   console.log(idURL);
 
 getPubmed(idURL).then(function(data) {
