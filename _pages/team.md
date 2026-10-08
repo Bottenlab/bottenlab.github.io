@@ -16,7 +16,7 @@ Now hiring a [Postdoctoral Associate in the Center for Children and Families](ht
 
 ### Graduate Students
 
-<span class="image left-rounded"><img src="{{ site.baseurl }}/images/amele_cropped" alt="Adriana Melendez" style="width: 200px;"/></span>
+<span class="image left-rounded"><img src="{{ site.baseurl }}/images/amele_cropped.jpeg" alt="Adriana Melendez" style="width: 200px;"/></span>
 
 <strong>Adriana Melendez</strong> 
 
