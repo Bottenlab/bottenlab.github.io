@@ -16,11 +16,19 @@ Now hiring a [Postdoctoral Associate in the Center for Children and Families](ht
 
 ### Graduate Students
 
+<span class="image left-rounded"><img src="{{ site.baseurl }}/images/amele_cropped" alt="Adriana Melendez" style="width: 200px;"/></span>
+
+<strong>Adriana Melendez</strong> 
+
 Recruiting grad students for a [Fall 2027 start](https://case.fiu.edu/psychology/phd-in-cognitive-neuroscience/admissions/index.html) through FIU's Cognitive Neuroscience PhD program! Please email Dr. Bottenhorn if you're planning to apply.
 
 ### Staff
 
 Now hiring a [Research Assistant](https://search.careers.fiu.edu/?sort=newest&q=538090) who is proficient in Python and/or MRI data analysis to start ASAP.
+
+### Volunteers
+
+The BottenLab has a eight (8) volunteer research assistants. Profiles coming soon.
 
 ### Moral Support
 
